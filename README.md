@@ -20,7 +20,7 @@ Command:
 ./collect_metrics_for_solr_issue.sh interval count solr_core
 ```
   
-2. After collecting the querymetrics data from the collection script, retrieve the data by PHASE and attribute. For example, Count under COORDINATOR phase.
+2. After collecting the querymetrics data from the collection script, retrieve the data by PHASE and attribute. For example, Count under COORDINATOR phase. If using "rate" mode, the graph is drawed by the rate of the data change. Otherwise, it's raw data.
 
 Command:
 

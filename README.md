@@ -25,7 +25,7 @@ Command:
 Command:
 
 ```
-python draw_solr_request_chart.py <output.xlsx> [RETRIEVE|COORDINATE|EXECUTE] <Attribute of the phase, for example, Count or 99thPercentile> <file path1> <file path2> ...
+python draw_solr_request_chart.py <xlsx output file> [RETRIEVE|COORDINATE|EXECUTE] <Attribute of the phase, for example, Count or 99thPercentile> [rate|false] <file path1> <file path2> ...
 ```  
 
 The tool will create a xlsx file, retrieve the data and draw the chart to visualize it. 

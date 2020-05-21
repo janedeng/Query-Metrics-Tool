@@ -29,3 +29,9 @@ python draw_solr_request_chart.py <xlsx output file> [RETRIEVE|COORDINATE|EXECUT
 ```  
 
 The tool will create a xlsx file, retrieve the data and draw the chart to visualize it. 
+
+Example:
+
+$ python ~/myscripts/Query-Metrics-Tool/draw_solr_request_chart.py test2.xlsx COORDINATE Count false 10.1.1.28-querymetrics.out 10.1.1.29-querymetrics.out 
+
+

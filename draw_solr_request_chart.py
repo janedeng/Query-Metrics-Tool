@@ -15,7 +15,7 @@ def file_read(filename, phase, attr, rate):
                     time_arr.append(line)
                 if phase in line:
                     line = next(f).strip(' \t\n\r,')
-                    while attr not in line: 
+                    while not re.search('^"' + attr, line, re.MULTILINE):
                         line = next(f).strip(' \t\n\r,')
                     count_arr.append(float((line.split(': ', 1)[1])))
 
